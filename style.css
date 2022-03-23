@@ -85,3 +85,10 @@ body {
 .attribution a {
     color: white;
 }
+
+.container .numbers .star:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    position: relative;
+    top: -3px;
+}
