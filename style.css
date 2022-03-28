@@ -62,9 +62,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
 }
 
-.container .numbers .star.active {
+.container .numbers .star.active, .container .numbers .star.active:hover {
     background-color: rgb(251, 116, 19);
     color: #fff;
 }
@@ -98,6 +100,5 @@ body {
 .container .numbers .star:hover {
     background-color: hsl(217, 12%, 63%);
     color: white;
-    position: relative;
-    top: -3px;
+    transform: translateY(-3px);
 }
